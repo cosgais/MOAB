@@ -1,6 +1,7 @@
 #!/bin/bash
 
 apt update && apt install docker-compose unzip -y
+pacman -Syu --noconfirm docker-compose unzip
 
 xhost +
 
