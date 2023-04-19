@@ -1,0 +1,5 @@
+umodbus
+pymodbus3
+PyQt5
+xlsxwriter
+pyqtgraph
