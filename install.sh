@@ -3,7 +3,7 @@
 apt update && apt install docker-compose unzip xorg-xhost -y
 pacman -Syu --noconfirm docker-compose docker unzip xorg-xhost
 
-xhost +
+xhost +SI:localuser:root
 
 wget https://raw.githubusercontent.com/cosgais/MOAB/main/Dockerfile
 
