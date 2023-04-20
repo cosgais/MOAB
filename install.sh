@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt update && apt install docker-compose unzip -y
-pacman -Syu --noconfirm docker-compose docker unzip
+apt update && apt install docker-compose unzip xorg-xhost -y
+pacman -Syu --noconfirm docker-compose docker unzip xorg-xhost
 
 xhost +
 
