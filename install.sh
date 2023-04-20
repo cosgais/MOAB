@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt update && apt install docker-compose unzip -y
-pacman -Syu --noconfirm docker-compose unzip
+pacman -Syu --noconfirm docker-compose docker unzip
 
 xhost +
 
@@ -15,5 +15,3 @@ wget https://www.dataforth.com/media/softwaredownload/maq20/ApplicationSoftware/
 unzip MAQ20_API_Python-master.zip -d .
 
 rm MAQ20_API_Python-master.zip
-docker-compose build
-docker-compose up
