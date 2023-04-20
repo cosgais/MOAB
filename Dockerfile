@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.11-slim-bullseye
 
 RUN apt update && apt install qtbase5-dev -y
 RUN apt install '^libxcb.*-dev' -y
